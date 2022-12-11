@@ -1,3 +1,5 @@
 mario-env/*
 .DS_Store
 Mario Tutorial.ipynb
+ddqn-files/*
+.ipynb_checkpoints/*
