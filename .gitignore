@@ -3,4 +3,13 @@ mario-env/*
 Mario Tutorial.ipynb
 ddqn-files/*
 .ipynb_checkpoints/*
-ddqn-dir/*
+ddqn-dir/ACTION_MEM.pt
+ddqn-dir/DONE_MEM.pt
+ddqn-dir/dq1.pt
+ddqn-dir/dq2.pt
+ddqn-dir/ending_position.pkl
+ddqn-dir/num_in_queue.pkl
+ddqn-dir/REWARD_MEM.pt
+ddqn-dir/STATE_MEM.pt
+ddqn-dir/STATE2_MEM.pt
+ddqn-dir/total_rewards.pkl
