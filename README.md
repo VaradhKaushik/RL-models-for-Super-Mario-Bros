@@ -22,15 +22,26 @@ The models were implemented using Python and the OpenAI Gym API. The nes-py emul
 - **RAM**: 16GB
 - **OS**: Windows 10
 
+Here's an updated Usage section for your README.md reflecting the new instructions:
+
 ## Usage
-To run the models, install the required packages from `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
-Run the main script to start training:
-```bash
-python main.py
-```
+To run the models, follow these steps:
+
+1. **Navigate to the Submission Directory**:
+   ```bash
+   cd submission
+   ```
+
+2. **Prepare the Environment**:
+   Before running the Jupyter notebooks, ensure that all necessary libraries are installed. Uncomment the `pip install` commands in the `.ipynb` files to install the required dependencies.
+
+3. **Run the Jupyter Notebooks**:
+   Open the Jupyter notebooks and run the cells to start the training and evaluation of the models:
+   ```bash
+   jupyter notebook <notebook_name>.ipynb
+   ```
+
+Make sure to activate your Python environment or install Jupyter Lab/Notebook if you haven't already, to ensure that you can run the `.ipynb` files.
 
 ## Results
 Our experiments reveal that DDQN outperforms DQN and PPO in terms of learning efficiency and gameplay success. DDQN not only learns faster but also achieves higher scores on average across multiple runs.
