@@ -22,7 +22,6 @@ The models were implemented using Python and the OpenAI Gym API. The nes-py emul
 - **RAM**: 16GB
 - **OS**: Windows 10
 
-Here's an updated Usage section for your README.md reflecting the new instructions:
 
 ## Usage
 To run the models, follow these steps:
